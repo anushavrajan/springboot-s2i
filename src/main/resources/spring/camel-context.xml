@@ -10,7 +10,7 @@
                 <method ref="myTransformer"/>
             </transform>
             <log id="route-log" message=">>> Version 4: Test GitHook Trigger: ${body}"/>
-           <!--   <log id="route-log" message=">>> ${body}"/>-->
+              <log id="route-log" message=">>> ${body}"/>
         </route>
     </camelContext>
 </beans>
